@@ -1,0 +1,62 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 44754974320,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browser_open()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "read Excel",
+        "description": "",
+        "id": "excel;read-excel",
+        "after": [
+          {
+            "result": {
+              "duration": 216249344,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browser_close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2187673998,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I read excel",
+            "match": {
+              "location": "excel_sd.iReadExcel()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@excel"
+          }
+        ]
+      }
+    ],
+    "name": "excel",
+    "description": "",
+    "id": "excel",
+    "keyword": "Feature",
+    "uri": "excel.feature"
+  }
+]
