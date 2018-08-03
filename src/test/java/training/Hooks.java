@@ -14,8 +14,6 @@ public class Hooks {
 
         webdriver web_driver = new webdriver();
         web_driver.openBrowser();
-
-
     }
 
     @After
