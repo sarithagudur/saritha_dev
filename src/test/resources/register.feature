@@ -1,4 +1,4 @@
-Feature: registration
+Feature: registration easy jet
   @register
   Scenario: registration
     Given I enter url as "https://www.easyjet.com/en/register"
