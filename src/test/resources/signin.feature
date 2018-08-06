@@ -11,6 +11,10 @@ Feature: signin
     Then I should receive the message"My bookings"
 
 
+
+
+
+
   Scenario: Invalid Signin
     Given I enter url as "https://www.easyjet.com/en"
     When I click on the sign in
